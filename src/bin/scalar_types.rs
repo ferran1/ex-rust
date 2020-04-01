@@ -1,9 +1,11 @@
 fn main (){
 
-    let a = 30; // i = signed integer
-    let b = 35; // u = unsigned integer
+    const AA: i32 = 44; // constant
 
-    // Different Integer types
+    // Integer Types
+    let a = 30; // i = signed integer
+    let mut b : u32 = 35; // u = unsigned integer, mut = mutable
+
 /* Length	Signed	Unsigned
    8-bit	i8	    u8
    16-bit	i16	    u16
