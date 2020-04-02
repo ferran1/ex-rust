@@ -1,10 +1,15 @@
-fn main (){
+const AA: i32 = 44; // constant
 
-    const AA: i32 = 44; // constant
+fn main (){
 
     // Integer Types
     let a = 30; // i = signed integer
     let mut b : u32 = 35; // u = unsigned integer, mut = mutable
+
+    let y = { // Initialize a variable based on the return value inside the block
+        let x = 3;
+        x + 1 // the variable y will have the value of 4
+    };
 
 /* Length	Signed	Unsigned
    8-bit	i8	    u8
@@ -18,6 +23,19 @@ fn main (){
     let c = 2.0; // default type = f64
     let d: f32 = 20.5;
 
+    // boolean
+    let e = true;
+
+    // char
+    let f = 'F';
+
+    // &str
+    let my_str = "This is a &str";
+
+    // String
+    let my_string = String::from("This is a String");
+
+    /* Calculations */
     // addition
     let sum = 5 + 10;
     // subtraction
@@ -28,11 +46,4 @@ fn main (){
     let quotient = 56.7 / 32.2;
     // remainder
     let remainder = 43 % 5;
-
-    // boolean
-    let e = true;
-
-    // char
-    let f = 'F';
-
 }
