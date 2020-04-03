@@ -9,7 +9,15 @@ fn main() {
     let hello = &s[..5]; // [..5] is equal to [0..5] because .. will start with the first element
     let there = &s[5..];
 
-    println!("{}{}", hello, there)
+    println!("{}{}", hello, there);
+
+    // other slices
+    let a = [0, 5, 10, 15, 20];
+    let array_slice = &a[0..3];
+
+    for number in array_slice.iter(){
+        println!("Value = {}", number); 
+    }
 }
 
 // returns the first word of a string as a string slice
