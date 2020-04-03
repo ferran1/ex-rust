@@ -4,7 +4,7 @@ fn main (){
 
     if x == 10 {
         println!("The variable is 10");
-    } else if x == 20{
+    } else if x == 20 {
         println!("The variable is 20")
     } else {
         println!("The variable isn't either 10 or 20..")
@@ -16,7 +16,4 @@ fn main (){
     } else {
         15 // Otherwise x should be 15
     };
-
-
-
 }

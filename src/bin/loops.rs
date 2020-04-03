@@ -30,5 +30,4 @@ fn main() {
     for number in my_array.iter() { // Execute some code for each item in a collection
         println!("The value is {}", number);
     }
-
 }
