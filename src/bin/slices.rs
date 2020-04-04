@@ -16,7 +16,7 @@ fn main() {
     let array_slice = &a[0..3];
 
     for number in array_slice.iter(){
-        println!("Value = {}", number); 
+        println!("Value = {}", number);
     }
 }
 
