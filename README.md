@@ -3,8 +3,15 @@ This repo contains all my Rust excersises
 
 ![Rust](https://linuxhint.com/wp-content/uploads/2017/02/Rust-Programming-Language-logo-520x245.jpg)
 
-### Documentation
+### Resources
 https://doc.rust-lang.org/book/
+https://doc.rust-lang.org/rust-by-example/
+https://github.com/fmoko/rustlings (Rustlings course)
+https://github.com/ctjhoa/rust-learning (More learing resources)
+
+Cheatsheets:
+https://www.breakdown-notes.com/make/load/rust_cs_canvas/true (Cheatsheet)
+https://cheats.rs/
 
 ### Crates (Rust package registry)
 https://crates.io/
