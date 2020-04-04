@@ -9,8 +9,7 @@ https://doc.rust-lang.org/rust-by-example/ <br>
 https://github.com/fmoko/rustlings (Rustlings course) <br>
 https://github.com/ctjhoa/rust-learning (More learing resources) 
 
-Cheatsheets: <br>
-
+### Cheatsheets
 https://www.breakdown-notes.com/make/load/rust_cs_canvas/true <br>
 https://cheats.rs/
 
