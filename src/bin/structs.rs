@@ -26,7 +26,7 @@ fn main() {
                           String::from("https://github.com/test123"),
                           String::from("https://github.com/test123"), 40);
 
-    // Now only change the email of p3
+    // Only change the email of p3
     let pg3 = Programmer::new(String::from("test123@gmail.com"), pg3.github, pg3.blog, pg3.age);
     println!("New email address of pg3 is {}", pg3.email);
 
