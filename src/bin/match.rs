@@ -20,4 +20,11 @@ fn main () {
         _ => println!("Who are you?")
     }
 
+    // If let (Shorter way of writing a match statement with one arm)
+    if let number = 1 {
+        println!("The number is 1!");
+    } else {
+        println!("The number isn't 1..")
+    }
+
 }
